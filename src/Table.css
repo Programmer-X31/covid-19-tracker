@@ -1,0 +1,40 @@
+.table {
+   margin-top: 20px;
+   overflow: scroll;
+   height: 400px;
+   color: #6a6a6a;
+}
+
+.table td {
+   padding: 0.5rem;
+}
+
+.table tr {
+   display: flex;
+   justify-content: space-between;
+}
+
+.table tr:nth-of-type(odd) {
+   background-color: #f3f2f8;
+}
+
+.table tr:nth-child(1) {
+   background-color: #ee2b31;
+   color: black;
+}
+
+.table tr:nth-child(2) {
+   background-color: #f68922;
+   color: black;
+}
+
+.table tr:nth-child(3) {
+   background-color: #ffc400;
+   color: black;
+}
+
+.table tr:last-child {
+   background-color: #87eb14;
+   color: black;
+   margin-bottom: 10px;
+}
