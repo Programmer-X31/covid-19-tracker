@@ -4,6 +4,10 @@
    height: 400px;
    color: #6a6a6a;
 }
+.table-flag {
+   flex: 0.1;
+   object-fit: contain;
+}
 
 .table td {
    padding: 0.5rem;
