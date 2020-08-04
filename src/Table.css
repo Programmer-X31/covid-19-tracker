@@ -2,11 +2,14 @@
    margin-top: 20px;
    overflow: scroll;
    height: 400px;
+   width: 100%;
    color: #6a6a6a;
 }
-.table-flag {
-   flex: 0.1;
-   object-fit: contain;
+.table__flag {
+   margin: 7px;
+   height: 22.5px;
+   width: 30px;
+   border: 1px solid #000000;
 }
 
 .table td {

@@ -19,14 +19,10 @@
    height: 100px;
    width: 100%;
    background-size: cover;
-   border-radius: 8px;
+   border: 0.5px solid #555555;
+   border-radius: 5px;
 }
 
-.info-flag img {
-   border-radius: 5px;
-   width: 100px;
-   object-fit: contain;
-}
 .info-name {
    font-size: 20px;
    font-weight: bold;

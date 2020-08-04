@@ -4,13 +4,20 @@
 
 body {
    background-color: #f5f6fa;
-   margin: 5px;
+   margin: 0;
 }
 
 .app {
    display: flex;
+   flex-direction: column;
    padding: 20px;
    justify-content: space-evenly;
+}
+
+.app__up {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
 }
 
 .app__left {
@@ -43,6 +50,8 @@ body {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
+   margin-left: 20px;
+   flex: 0.28;
 }
 
 .app__right .MuiCardContent-root {
