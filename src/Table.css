@@ -1,47 +1,47 @@
 .table {
-   margin-top: 20px;
-   overflow: scroll;
-   height: 400px;
-   width: 100%;
-   color: #6a6a6a;
+	margin-top: 20px;
+	overflow: scroll;
+	height: 400px;
+	width: 100%;
+	color: #6a6a6a;
 }
 .table__flag {
-   margin: 7px;
-   height: 22.5px;
-   width: 30px;
-   border: 1px solid #000000;
+	margin: 7px;
+	height: 22.5px;
+	width: 30px;
+	border: 1px solid #000000;
 }
 
 .table td {
-   padding: 0.5rem;
+	padding: 0.5rem;
 }
 
 .table tr {
-   display: flex;
-   justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .table tr:nth-of-type(odd) {
-   background-color: #f3f2f8;
+	background-color: #f3f2f8;
 }
 
 .table tr:nth-child(1) {
-   background-color: #ee2b31;
-   color: black;
+	background-color: #ee2b31;
+	color: black;
 }
 
 .table tr:nth-child(2) {
-   background-color: #f68922;
-   color: black;
+	background-color: #f68922;
+	color: black;
 }
 
 .table tr:nth-child(3) {
-   background-color: #ffc400;
-   color: black;
+	background-color: #ffc400;
+	color: black;
 }
 
 .table tr:last-child {
-   background-color: #87eb14;
-   color: black;
-   margin-bottom: 10px;
+	background-color: #87eb14;
+	color: black;
+	margin-bottom: 10px;
 }
